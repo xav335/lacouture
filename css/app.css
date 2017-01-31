@@ -1,0 +1,106 @@
+@font-face {
+	font-family:'BickhamScriptPro-Regular';
+	src: url('../fonts/BickhamScriptPro-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/BickhamScriptPro-Regular.otf') format('opentype'),
+		 url('../fonts/BickhamScriptPro-Regular.woff') format('woff'),
+		 url('../fonts/BickhamScriptPro-Regular.ttf') format('truetype'),
+		 url('../fonts/BickhamScriptPro-Regular.svg#BickhamScriptPro-Regular') format('svg');
+	font-weight:normal;font-style:normal;
+}
+@font-face {
+	font-family:'Swiss721BT-Light';
+	src: url('../fonts/Swiss721BT-Light.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Swiss721BT-Light.woff') format('woff'),
+		 url('../fonts/Swiss721BT-Light.ttf') format('truetype'),
+		 url('../fonts/Swiss721BT-Light.svg#Swiss721BT-Light') format('svg');
+	font-weight:normal;font-style:normal;
+}
+@font-face {
+    font-family:'autre_planete_icons_socialnRg';
+    src:
+    	url('../fonts/autreplanete_reseauxsociaux-webfont.eot'),
+    	url('../fonts/autreplanete_reseauxsociaux-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/autreplanete_reseauxsociaux-webfont.woff') format('woff'),
+        url('../fonts/autreplanete_reseauxsociaux-webfont.ttf') format('truetype'),
+        url('../fonts/autreplanete_reseauxsociaux-webfont.svg#autre_planete_icons_socialnRg') format('svg');
+    font-weight:normal;font-style:normal;
+}
+
+body {font-family:'Swiss721BT-Light';background:#e6e6e6;}
+
+h1,h2,h3,h4,h5,h6 {font-family:'BickhamScriptPro-Regular';}
+p {font-size:14px;line-height:normal;text-align:justify;}
+
+.fullwidth {max-width:none;}
+
+header {background:url('../img/bg-header.jpg') no-repeat center bottom #fff;background-size:contain;min-height:620px;text-align:center;padding-top:60px;border-bottom:1px solid #111;}
+header .logo {font-family:'BickhamScriptPro-Regular';font-size:120px;color:#000;background:url('../img/bg-logo.jpg') no-repeat center bottom;display:block;line-height:200px;}
+header nav ul {margin:0;}
+header nav li {display:inline-block;text-transform:uppercase;padding:0 13px;}
+header nav a {color:#666;display:block;border-bottom:2px solid transparent;}
+header nav li:hover a, header nav li.active a {color:#000;border-color:#000;}
+
+main {background:url('../img/degrade.png') center center no-repeat;padding-top:80px;padding-bottom:80px;}
+
+.presentation:before {content:url('../img/separateur.svg');display:block;text-align:center;padding-bottom:15px;}
+.presentation:after {content:url('../img/separateur.svg');display:block;text-align:center;transform:rotate(180deg);padding-top:60px;padding-bottom:30px;}
+.presentation .columns {position:relative;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;}
+
+h1, h2 {font-size:72px;color:#000;line-height:30px;margin-bottom:30px;}
+h1:first-line, h2:first-line {font-size:40px;color:#666;}
+h2 {text-align:center;}
+.titre {font-family:'BickhamScriptPro-Regular';font-size:48px;text-align:center;}
+
+.swiper-container {width:90%;height:100%;}
+.swiper-slide {background-size:cover;background-position:center center;background-repeat:no-repeat;min-height:288px;}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");}
+.swiper-button-next, .swiper-button-prev {-moz-background-size:20px 20px;-webkit-background-size:20px 20px;background-size:20px 20px;margin-top:14px;}
+
+.actualites .columns {position:relative;}
+.bulle-top {background:url('../img/bulle-top.png');position:absolute;width:159px;height:144px;top:-20px;right:0;}
+.bulle-bottom {background:url('../img/bulle-bottom.png');position:absolute;width:290px;height:195px;bottom:-40px;left:-20px;}
+
+footer {display:block;text-align:center;background:#fff;padding:0 0 15px 0;}
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {max-width:390px;}
+footer form {background:#c4c4c4;padding:15px;border-top:1px solid #7b7b7b;border-bottom:1px solid #7b7b7b;margin-bottom:30px;}
+footer form [type='email'] {margin:0 auto;display:inline-block;border:none;line-height:30px;height:30px;text-align:center;}
+footer form button {padding:0 5px;text-align:center;text-transform:uppercase;color:#000;background:#626262;font-family:tahoma,arial,sans-serif;font-size:14px;line-height:30px;}
+footer form button:hover {color:#fff;background:#000;}
+footer .logo {font-family:'BickhamScriptPro-Regular';font-size:61px;color:#000;background:url('../img/bg-logo.jpg') no-repeat center bottom;display:block;line-height:100px;background-size:contain;}
+footer p {text-align:center;text-transform:uppercase;font-size:11px;}
+footer p a {color:#000;}
+footer p a:hover {color:#c4c4c4;}
+footer p.social {font-family:'autre_planete_icons_socialnRg';font-size:36px;}
+footer p:last-child {text-transform:none;}
+footer p:last-child a {text-decoration:underline;}
+
+
+/* Responsive design */
+@media screen and (max-width:1024px) {
+	header {min-height:480px;padding-top:20px;}
+}
+@media screen and (max-width:768px) {
+	header {min-height:440px;}
+}
+@media screen and (max-width:640px) {
+	header {min-height:340px;}
+	header .logo {font-size:75px;background-size:contain;line-height:140px;}
+}
+@media screen and (max-width:480px) {
+	main {padding-top:40px;padding-bottom:40px;}
+	[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {max-width:280px;}
+	.bulle-bottom {display:none;}
+}
+@media screen and (max-width:375px) {
+	header {min-height:400px;}
+	header .logo {font-size:50px;line-height:100px;}
+	header nav li {display:block;}
+	.titre {font-size:40px;}
+	h1,h2 {font-size:55px;}
+	.presentation:before {padding-bottom:0;}
+	.presentation:after {padding-top:20px;padding-bottom:0px;}
+	.bulle-top {display:none;}
+	[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {max-width:240px;}
+	footer .logo {font-size:50px;}
+}
