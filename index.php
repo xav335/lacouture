@@ -43,9 +43,14 @@
 								Présentation du<br/>
 								Château Lacouture
 							</h1>
-							<p>Nulla non luctus lacus, ac feugiat nulla. Pellentesque laoreet nibh vel gravida auctor. Aliquam in scelerisque nulla, eget condimentum dui. Quisque erat dui, lobortis nec consequat eget, porta id nunc. Vestibulum dictum justo a varius maximus. Nunc venenatis maximus turpis. Nulla facilisi. Praesent cursus arcu elit, sed imperdiet massa dictum id. Nam et pretium risus. Suspendisse augue eros, ultricies vitae rhoncus finibus, hendrerit ut felis. Duis interdum non enim eu semper. Donec venenatis non turpis in consequat.</p>
-							<p>Maecenas volutpat risus eu tempus lacinia. Curabitur tincidunt leo ligula, ac interdum felis fringilla ut. Aenean vel varius velit. Pellentesque leo augue, dignissim vel auctor a, finibus sit amet leo. Integer euismod sem et porttitor convallis. Pellentesque varius tempor neque, sit amet consectetur magna vehicula et. Mauris ut nisl quis lectus sollicitudin dignissim viverra et augue.</p>
-						</div>
+							<p>Dans un respect environnemental, les vignes du Château Lacouture sont travaillées de manière raisonnée, sans apport de désherbant chimique.<br><br>
+                                Certification AREA Environnementale de Niveau 2<br><br>
+                                    La maîtrise des rendements apporte à nos vins une richesse qui se communique de père en fils depuis quatre générations de vignerons passionnés.</p>
+
+<br><br>
+
+                                    <p><strong>Visite des chais et du vignoble chaque jour de 10h à 18h, sur rendez-vous de préférence.</strong></p>
+							</div>
 					</div>
 				</div>
 				
