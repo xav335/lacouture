@@ -11,8 +11,19 @@
 			<p><a href="#">mentions légales</a> | conception &amp; réalisation © 2016 - <a href="http://www.iconeo.fr" target="_blank">iconeo.fr</a></p>
 		</footer>
 		
-		<script src="js/vendor/jquery.js"></script>
 		<script src="js/vendor/what-input.js"></script>
 		<script src="js/vendor/foundation.js"></script>
 		<script src="js/vendor/swiper/js/swiper.min.js"></script>
 		<script src="js/app.js"></script>
+		<script>
+    		$(document).ready(function() {
+    			$('.fancybox').fancybox({
+    				  padding: 0,
+    				  helpers: {
+    				    overlay: {
+    				      locked: false
+    				    }
+    				  }
+    			});
+    		});
+		 </script>

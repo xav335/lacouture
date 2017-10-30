@@ -28,10 +28,11 @@
 						<div class="swiper-container">
 							<div class="titre">Le Château en Photos</div>
 							<div class="swiper-wrapper">
-								<div class="swiper-slide" style="background-image:url('img/photo-01.jpg');"></div>
-								<div class="swiper-slide" style="background-image:url('img/photo-01.jpg');"></div>
-								<div class="swiper-slide" style="background-image:url('img/photo-01.jpg');"></div>
-								<div class="swiper-slide" style="background-image:url('img/photo-01.jpg');"></div>
+								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-1.jpg');"></div>
+								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-2.jpg');"></div>
+								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-3.jpg');"></div>
+								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-4.jpg');"></div>
+								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-5.jpg');"></div>
 							</div>
 						</div>
 						<div class="swiper-button-next"></div>
@@ -83,6 +84,16 @@
 		<script>
 			$(document).ready(function(){
 				$('header nav li:nth-child(1)').addClass('active');
+			});
+
+			var swiper = new Swiper('.swiper-container', {
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				autoplay: 4000,
+				slidesPerView: 1,
+				paginationClickable: true,
+				spaceBetween: 0,
+				loop: true
 			});
 		</script>
 	</body>
