@@ -1,6 +1,7 @@
 		<footer>
-			<form method="post" action="">
-				<input type="email" name="email" placeholder="Inscrivez-vous à notre newsletter" /><button>ok</button>
+			<form id="form_news" action="#" method="post">
+				<input type="hidden" name="as" value="" />
+				<input type="email" name="email_news" id="email_news" value="" placeholder="Inscrivez-vous à notre newsletter - Saisissez votre e-mail" required /><button>OK</button>
 			</form>
 			<div class="logo">Château Lacouture</div>
 			<p>
@@ -8,7 +9,7 @@
 				+33 5 57 64 82 31
 			</p>
 			<p class="social"><a href="https://www.facebook.com/ChateauLacouture" target="_blank" title="Facebook">0</a><a href="#" title="Twitter">1</a><a href="#" title="Google plus">2</a><a href="#" title="LinkedIn">3</a></p>
-			<p><a href="#">mentions légales</a> | conception &amp; réalisation © 2016 - <a href="http://www.iconeo.fr" target="_blank">iconeo.fr</a></p>
+			<p><a href="mentions.php">mentions légales</a> | conception &amp; réalisation © 2016 - <a href="http://www.iconeo.fr" target="_blank">iconeo.fr</a></p>
 		</footer>
 		
 		<script src="../js/vendor/what-input.js"></script>
@@ -28,5 +29,41 @@
     				    }
     				  }
     			});
+
+
+    			// ---- Validation du formulaire de newsletter -------------- //
+    			if ( 1 == 1 ) {
+    				
+    				$( "#form_news" ).submit(function() {
+    					//alert( "validation..." );
+    					var erreur = 0;
+    					
+    					$.ajax({
+    						type: "POST",
+    						cache: false,
+    						url: '/ajax/ajax_newsletter.php?task=inscrire',
+    						data: $( "#form_news" ).serialize(),
+    						error: function() { alert( "Une erreur s'est produite..." ); },
+    						success: function( data ){
+    							var obj = $.parseJSON( data );
+    							
+    							// Tout s'est bien passé!
+    							if ( !obj.error ) {
+    								$( "#form_news #email_news" ).val( '' );
+    								alert( "Votre e-mail a été correctement ajouté à notre base de données." );
+    							}
+    							else {
+    								
+    							}
+    							
+    						}
+    					});
+    					
+    					return false;
+    				});
+    			}
+    			// ---------------------------------------------------------- //
+
+    			
     		});
 		 </script>

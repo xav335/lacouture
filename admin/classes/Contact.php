@@ -6,6 +6,24 @@ class Contact extends StorageManager {
 
 	}
 
+	public function isContact( $email='') {
+	    $this->dbConnect();
+	    try {
+	        $sql = "SELECT * FROM `contact` WHERE email = '". $email . "'";
+	        	
+	        $result = mysqli_query( $this->mysqli, $sql );
+	        	
+	        $row = mysqli_fetch_assoc( $result );
+	        $retour = ( $row ) ? $row[ "id" ] : false;
+	        $this->dbDisConnect();
+	        return $retour;
+	    }
+	    catch (Exception $e) {
+	        throw new Exception("Erreur Mysql contactGet ". $e->getMessage());
+	        return "errrrrrrooooOOor";
+	    }
+	}
+	
 	public function contactGet($id, $offset, $count){
 		 $this->dbConnect();
 		try {

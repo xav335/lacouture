@@ -73,7 +73,7 @@ if (!empty($_GET)){
 							<?php echo nl2br($value['contenu'])?>
 						</p>
 						<?php if (!empty($value['accroche'])) :?>
-						  <a href="<?php echo $value['accroche']?>" class="bt-plus">en savoir +</a>
+						  <a href="<?php echo $value['accroche']?>" class="bt-plus" target="_BLANK">en savoir +</a>
 						<?php endif; ?>
 					</div>
 					<hr style="padding-top: 12px;">

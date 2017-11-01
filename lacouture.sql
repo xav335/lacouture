@@ -59,7 +59,7 @@ CREATE TABLE `contact` (
   `fromgoldbook` tinyint(4) NOT NULL DEFAULT '0',
   `fromcontact` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=25452 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=25471 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -68,7 +68,7 @@ CREATE TABLE `contact` (
 
 LOCK TABLES `contact` WRITE;
 /*!40000 ALTER TABLE `contact` DISABLE KEYS */;
-INSERT INTO `contact` VALUES (25438,'Jav','gonz','jav_gonz@yahoo.fr',NULL,NULL,1,0,0),(25439,'xav','gonza','xavier.gonzalez@free.fr',NULL,NULL,1,0,0),(25442,'xavier','gonzalez','fjavi.gonzalez@gmail.com',NULL,NULL,1,0,0),(25446,'','Gonzalez','xavier@gonzalez.pm',NULL,NULL,1,1,0),(25448,'jhonny','guitar','jav_gonz@yahoo.com',NULL,NULL,1,0,1);
+INSERT INTO `contact` VALUES (25448,'jhonny','guitar','jav_gonz@yahoo.com',NULL,NULL,1,0,1),(25462,'Jav','gonz','jav_gonz@yahoo.fr',NULL,NULL,1,0,0),(25463,'xav','gonza','xavier.gonzalez@free.fr',NULL,NULL,1,0,0),(25464,'xavier','gonzalez','fjavi.gonzalez@gmail.com',NULL,NULL,1,0,0),(25465,'','Gonzalez','xavier@gonzalez.pm',NULL,NULL,1,0,0),(25466,'jhonny','guitar','jav_gonz@yahoo.com',NULL,NULL,1,0,0),(25470,'','','xavier@yahooo.fr',NULL,'',1,0,0);
 /*!40000 ALTER TABLE `contact` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -109,7 +109,7 @@ CREATE TABLE `goldbook` (
   `message` text,
   `online` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -118,7 +118,7 @@ CREATE TABLE `goldbook` (
 
 LOCK TABLES `goldbook` WRITE;
 /*!40000 ALTER TABLE `goldbook` DISABLE KEYS */;
-INSERT INTO `goldbook` VALUES (2,'2014-12-10 00:00:00','Xavier Gonzalez (Latresne)','xavier@gonzalez.pm','Produits de grande qualité, j\'ai retrouvé le gout des fruits et des légumes.\r\nL\'accueil et les conseils sont vraiment pertinents.\r\n\r\nEt la livraison à domicile c\'est juste parfait !',1);
+INSERT INTO `goldbook` VALUES (2,'2017-01-10 00:00:00','Jérome Malles','xavier@gonzalez.pm','Produits de grande qualité. Dans le respect de l\'environnement.\r\n',1),(3,'2017-11-01 00:00:00','Javier Gonzalez ( Latresne )','fjavi.gonzalez@gmail.com','Des vins superbes, un accueil chaleureux et des conseils pertinents donnés  par des personnes très compétentes et passionnés. Je recommande chaudement.',1),(13,'2017-11-01 00:00:00','Yann ( London )','fjavi.gonzalez@gmail.com','Great wines ! ',1);
 /*!40000 ALTER TABLE `goldbook` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -138,7 +138,7 @@ CREATE TABLE `news` (
   `image1` varchar(250) DEFAULT NULL,
   `online` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_news`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -147,7 +147,7 @@ CREATE TABLE `news` (
 
 LOCK TABLES `news` WRITE;
 /*!40000 ALTER TABLE `news` DISABLE KEYS */;
-INSERT INTO `news` VALUES (10,'2015-01-01 00:00:00','Nouveau ! Les lotions ','/produit-detail.php?categorie=39','100 % cultivées et distillées dans <strong>la Drôme</strong> Achillée millefeuille antibactérien et équilibrant Carotte sauvage apaise irritations et rougeurs revigore les peaux ternes Camomille romaine purifie et redonne du tonus Rose astringeant, tonifie la peau. ','/lotion_espiegle-10.jpg',1),(18,'2015-02-19 00:00:00','Livraison à domicile','','Allée du Bio vous propose la livraison de vos commandes <strong>à domicile.</strong>\r\nCommandez par téléphone ou bien sur le site à l\'aide du bon de commande et nous assurons la livraison à domicile ou <b>la préparation de paniers à emporter</b>\r\n','/livreur - Copy 1-18.png',1);
+INSERT INTO `news` VALUES (18,'2017-01-19 00:00:00','Lancement de notre site internet','','Retrouvez sur notre site tous nos produits,nos actus et évènements.\r\ninscrivez vous à la newsletter et suivez nous sur facebook.\r\nBon surf.\r\n','/Screenshot_2017_11_02_00.11.20-18.png',1),(19,'2017-11-12 00:00:00','Marché Culturel et Gastronomique','http://www.sudouest.fr/2014/11/08/le-mariage-de-la-culture-et-de-la-gastronomie-1729984-3230.php','Venez partager un moment convivial au château Lacouture.\r\n\r\nPendant ce marché exceptionnel, profitez d\'une visite des installations viticoles du château Lacouture et de dégustations des vins des Côtes de Bourg.\r\nVous pourrez acheter des produits du terroir ainsi que des jeux et jouets traditionnels et des objets artisanaux !\r\nUne exposition prendra également place, et l\'auteur de la BD \"Les aventures d\'Aëlys et Roustan\" sera présent pour une séance de dédicaces.\r\n\r\nRéservation obligatoire pour le repas du midi.','/lan_dernier_environ_200_personne-19.jpg',0);
 /*!40000 ALTER TABLE `news` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -204,6 +204,32 @@ LOCK TABLES `newsletter_detail` WRITE;
 INSERT INTO `newsletter_detail` VALUES (323,12,'','/uploads/bsport3.jpg','http://dev.bsport.fr/','');
 /*!40000 ALTER TABLE `newsletter_detail` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `planning`
+--
+
+DROP TABLE IF EXISTS `planning`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `planning` (
+  `id` tinyint(4) NOT NULL,
+  `titre` varchar(250) DEFAULT NULL,
+  `url` varchar(250) NOT NULL,
+  `pdf` varchar(250) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `planning`
+--
+
+LOCK TABLES `planning` WRITE;
+/*!40000 ALTER TABLE `planning` DISABLE KEYS */;
+INSERT INTO `planning` VALUES (1,' 2017','','/plaquette2017-20171101.pdf');
+/*!40000 ALTER TABLE `planning` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -214,4 +240,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-11-01 17:29:18
+-- Dump completed on 2017-11-02  0:55:41
