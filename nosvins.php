@@ -1,3 +1,22 @@
+<?php require_once 'inc/inc.config.php';?>
+<?php 
+require 'admin/classes/Planning.php';
+require 'admin/classes/utils.php';
+session_start();
+$planning = new Planning();
+$result = $planning->planningGet();
+$planning = null;
+
+$titre= null;
+$url= null;
+$pdf= null;
+if (!empty($result)) {
+	$titre= $result[0]['titre'];
+	$url= $result[0]['url'];
+	$pdf= $result[0]['pdf'];
+}
+//print_r($result);
+?>
 <!doctype html>
 <html class="no-js" lang="fr" dir="ltr">
 	<head>
@@ -34,6 +53,10 @@
 					</div>
 				</div>	
 				
+				<div class="row" style="text-align: center;">
+				    <br>
+					<a class="rouge" href="photos/bdc<?php echo $pdf?>" target="_BLANK">Télécharger notre plaquette</a>
+				</div>
 					
 				<div class="row" style="margin-top: 100px;">
 						

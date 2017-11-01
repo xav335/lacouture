@@ -19,7 +19,7 @@
 		<meta name="msapplication-TileColor" content="#ffffff" />
 		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png" />
 		<meta name="theme-color" content="#ffffff" />
-				
+		<link href='https://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>		
 		<link rel="stylesheet" href="css/foundation.css" />
 		<link rel="stylesheet" href="js/vendor/swiper/css/swiper.min.css" />
 		<link rel="stylesheet" href="css/app.css" />

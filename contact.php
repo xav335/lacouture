@@ -101,85 +101,135 @@
 		
 		<main>
 			
-			<section class="actualites">
 				
 				<div class="row">
-					
-					
+				    <div class="columns large-12">
+						<h1>
+							Château Lacouture<br/>
+							Contactez nous
+							
+						</h1>
+        			</div>
+				</div>
+		<section class="presentation">				
+				<div class="row">	
         			<div class="large-4 medium-6 small-12 columns">
-        				<div class="columns large-12">
-        						<h1>
-        							Château Lacouture<br/>
-        							Contactez nous
-        							
-        						</h1>
-        					</div>
-        				<p>SARL 3232323365</p>
-        				<p>12 rue des jesaispas<br/>33000 laville</p>
-        				<p>Tél. +33 5 33 333  333</p>
-        				<p>Email :  <a href="mailto:contact@escalinox.fr">contact@leddns</a></p>
+        				
+        				<p>Romain SOU</p>
+        				<p>3 route du Fronton <br/>33710 GAURIAC</p>
+        				<p>Tél. +33 5 57 64 82 31 </p>
+        				<p>contact@chateaulacouture.com</a></p>
+        				
+        				<p>Visite des chais et du vignoble chaque jour de 10h à 18h, Sur rendez-vous de préférence.</p>
+        				
+						<a href="img/sou-senior.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/sou-senior.jpg"  alt="" /></a>    
         			</div>
         			
+        			
+        			
         			<div class="large-8 medium-6 small-12 columns">
+        				        <div class="large-12 columns">
+                        			<div class="large-8 medium-8 small-8 columns" >
+                        				
+                        			</div>
+                        		<div id="resultat"></div>
+                        		<form data-abide id="formulaire">
+                        			<div class="row">
+                        				<div class="large-6 columns">
+                        					<label>Nom
+                        						<input type="text" id="nom" name="name" placeholder="Nom" required  />
+                        					</label>
+                        					<small class="error">Votre nom est obligatoire</small>
+                        				</div>
+                        				<div class="large-6 columns">
+                        					<label>Prénom
+                        						<input id="prenom" type="text" name="firstname" placeholder="Prénom" />
+                        					</label>
+                        				</div>
+                        			</div>
+                        			<div class="row">
+                        				<div class="large-6 columns">
+                        					<label>Téléphone
+                        						<input type="text" id="tel" name="tel" placeholder="Téléphone" />
+                        					</label>
+                        					<small class="error">Votre téléphone est obligatoire</small>
+                        				</div>
+                        				<div class="large-6 columns">
+                        					<label>e-mail
+                        						<input type="text" id="email" name="email" placeholder="e-mail" required />
+                        					</label>
+                        					<small class="error">Votre e-mail est obligatoire</small>
+                        				</div>
+                        			</div>
+                        			
+                        			<div class="row">
+                        				<div class="large-12 columns">
+                        					<label>Message
+                        						<textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                        					</label>
+                        					<small class="error">Merci de saisir votre message</small>
+                        				</div>
+                        			</div>
+                        			<div class="row">
+                        				<div class="large-12 columns">
+                        					<input type="checkbox" id="newsletter" name="newsletter"  checked/> J'accepte de recevoir la newsletter.
+                        				</div>
+                        			</div>
+                        			<div class="row">
+                        					<div class="large-12 columns" style="text-align: center;">
+                        						<button type="submit">Envoyer votre message</button>
+                        					</div>
+                        				</div>
+                        			
+                        		</form>
+                        	</div>
+        				     <div class="large-12 columns">
+        				        <a href="https://www.google.fr/maps/place/Ch%C3%A2teau+Lacouture/@44.9855345,-0.8705377,10z/data=!4m5!3m4!1s0x4801d4ab5cf0664d:0xac8897f8c574d583!8m2!3d45.0692487!4d-0.6051492" target="_BLANK"><img src="img/plan2.jpg"  alt="" /></a>  
+        				     </div>
         				
-        				<div id="div_success" class="large-12 medium-12 small-12 columns <?=$affichage_success?>">
-        					<h3>Félicitations!</h3>
-        					<p>Votre message a été envoyé avec succès!</p>
-        				</div>
         				
-        				<div id="div_erreur" class="large-12 medium-12 small-12 columns <?=$affichage_erreur?>">
-        					<h3>Erreur!</h3>
-        					<p>
-        						Une erreur s'est produite lors de l'envoi de votre message.<br>
-        						Veuillez essayer ultérieurement.
-        					</p>
-        				</div>
-        				
-        				<form id="formulaire" class="row contact" method="post" action="contact.php">
-        					<input type="hidden" name="mon_action" id="mon_action" value="" />
-        					<input type="hidden" name="as" value="" />
-        					
-        					<div class="large-6 medium-12 columns">
-        						<input type="text" name="prenom" id="prenom" placeholder="Votre prénom" />						
-        					</div>
-        					<div class="large-6 medium-12 columns">
-        						<input type="text" name="nom" id="nom" placeholder="Votre nom" />
-        					</div>
-        					<div class="large-12 columns">
-        						<input type="text" name="adresse" id="adresse" placeholder="Votre adresse">
-        					</div>
-        					<div class="large-4 medium-5 small-12 columns">
-        						<input type="text" name="cp" id="cp" placeholder="Code postal" />						
-        					</div>
-        					<div class="large-8 medium-7 small-12 columns">
-        						<input type="text" name="ville" id="ville" placeholder="Ville" />
-        					</div>
-        					<div class="large-6 medium-12 columns">
-        						<input type="tel" name="tel" id="tel" placeholder="Votre n° de téléphone" />						
-        					</div>
-        					<div class="large-6 medium-12 columns">
-        						<input type="email" name="email" id="email" placeholder="Votre e-mail" />
-        					</div>
-        					<div class="large-12 columns">
-        						<textarea name="message" id="message" placeholder="Votre message"></textarea>
-        					</div>
-        					<!--  <div class="large-12 medium-12 columns">
-        						<input type="checkbox" name="newsletter" checked />&nbsp;Je souhaite m'inscrire sur la newsletter.
-        					</div>-->
-        					<div class="large-12 columns">
-        						<input type="submit" value="Envoyer" />
-        					</div>
-        					<!-- <div class="large-12 columns">
-        						<p class="rouge">
-        							Conformément à la loi Informatique et Libertés en date du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données qui vous concernent. Vous pouvez exercer ce droit en nous envoyant un courrier électronique ou postal.
-        						</p>
-        					</div> -->
-        				</form>
-        			</div>
-					
+					</div>
 				</div>
 				
 			</section>
+			
+			
+	<!-- /Content -->
+    <script type="text/javascript">
+    
+    	$(document).on('submit','#formulaire',function(e) {
+    	  e.preventDefault();
+    	  data = $(this).serializeArray();
+    
+    	  data.push({
+    	   		name: 'action',
+    	    	value: 'sendMail'
+    	  	})
+    
+    	  console.log(data);
+    
+    	    /* I put the above code for check data before send to ajax*/
+    	    $.ajax({
+    		        url: '/ajax/contact.php',
+    		        type: 'post',
+    		        data: data,
+    		        success: function (data) {
+    		            $("#resultat").html("<div class=\"vert\">Merci pour votre message - Nous allons y donner suite rapidement</div>");
+    		        	$("#nom").val("");
+    		        	$("#prenom").val("");
+    		        	$("#email").val("");
+    		        	$("#tel").val("");
+    		           	$("#message").val("");
+    		        },
+    		        error: function() {
+    		        	 $("#resultat").html("<div class=\"vert\">Une erreur s'est produite !</div>");
+    		        }
+    		   	});
+    	return false;
+    	})
+    
+    </script>
+			
 			
 			
 			

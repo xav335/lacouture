@@ -31,7 +31,6 @@ $goldbook = null;
 		
 		<main>
 			
-			<section class="actualites">
 				
 				<div class="row">
 					<div class="columns large-12">
@@ -43,39 +42,47 @@ $goldbook = null;
 					</div>
 					
 				</div>
-				
-<div class="row">
+<section class="presentation">			
+   <div class="row">
 	<!-- Livre d'or -->
 	<div class="large-5 medium-5 small-12 columns">
 		<br>
-		<div class="rouge">Signez le livre d'or</div>
+		<h2 style="text-align: center;">Signez le livre d'or</h2>
 		<div id="resultat">
 		
     	</div>
     	<form data-abide id="formulaire">
     		<input type="hidden" name="datepicker" id="datepicker"  value="<?php echo date("d/m/Y")?>">
+			<div class="row">
 				<div class="large-12 columns">
 					<label>Nom
-						<input name="name" id="nom" type="text" placeholder="Nom"  />
+						<input name="name" id="nom" type="text" placeholder="Nom" required />
 					</label>
 					<small class="error">Votre nom est obligatoire</small>
 				</div>
+			</div>
+			<div class="row">
 				<div class="large-12 columns">
 					<label>e-mail
 						<input name="email" id="email" type="email" placeholder="e-mail" required />
 					</label>
 					<small class="error">Votre e-mail est obligatoire</small>
 				</div>
+			</div>
+			<div class="row">
 				<div class="large-12 columns">
 					<label>Message
 						<textarea name="message" id="message" placeholder="Votre message" required></textarea>
 					</label>
 					<small class="error">Merci de saisir votre message</small>
 				</div>
+			</div>
+			<div class="row">
 				<div class="large-12 columns">
 					<input type="checkbox" id="newsletter" name="newsletter"  checked/> J'accepte de recevoir notre newsletter.
 				</div>
-			<input class="envoi" type="submit" value="Laissez nous votre témoignage"/>
+			</div>
+			<div style="text-align: center;"><input class="envoi" type="submit" value="Laissez nous votre témoignage"/></div>
 		</form>
 	</div>
 	<div class="large-7 medium-7 small-12 columns livredor">
@@ -121,13 +128,13 @@ $goldbook = null;
 		        type: 'post',
 		        data: data,
 		        success: function (data) {
-		            $("#resultat").html("<h2 class=\"red\">Merci pour votre message</h3>");
+		            $("#resultat").html("<div class=\"vert\">Merci pour votre message</div>");
 		        	$("#nom").val("");
 		           	$("#email").val("");
 		           	$("#message").val("");
 		        },
 		        error: function() {
-		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");
+		        	 $("#resultat").html("<div class=\"vert\">Une erreur s'est produite !</div>");
 		        }
 		   	});
 	return false;

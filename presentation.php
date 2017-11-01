@@ -57,6 +57,8 @@
 						<a href="img/chateau-lacouture-2.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/chateau-lacouture-2.jpg"  alt="" /></a> 
 						<br/><br/><br/>
 						<a href="img/chateau-lacouture-1.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/chateau-lacouture-1.jpg"  alt="" /></a> 
+						<br/><br/><br/>
+						<a href="img/chateau-lacouture-10.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/chateau-lacouture-10.jpg"  alt="" /></a> 
 					</div>
 				</div>
 				<br/><br/>
@@ -75,10 +77,8 @@
 			    
 				<br/><br/>
 			    <div class="row" data-equalizer>
-			          <div class="columns large-6 medium-6 small-12" data-equalizer-watch>
-						<a href="img/sou-senior.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/sou-senior.jpg"  alt="" /></a>    
-			         </div>
-			         <div class="columns large-6 medium-6 small-12" data-equalizer-watch>
+			         
+			         <div class="columns large-12 medium-12 small-12" data-equalizer-watch>
     						<a href="img/sou-junior.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/sou-junior.jpg"  alt="" /></a>  
         			 </div> 		  
 			    </div>
