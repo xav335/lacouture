@@ -54,6 +54,9 @@ h3:first-line {font-size:50px;color:#666;}
 h1,h2 {text-align:center;}
 .titre {font-family:'BickhamScriptPro-Regular';font-size:40px;text-align:center;}
 
+
+label {font-family:'Swiss721BT-Light';font-size:20px;color:#666; text-align: left; font-weight: bold;}
+
 .swiper-container {width:90%;height:100%;}
 .swiper-slide {background-size:cover;background-position:center center;background-repeat:no-repeat;min-height:288px;}
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");}
