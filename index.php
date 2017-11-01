@@ -33,6 +33,7 @@
 								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-3.jpg');"></div>
 								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-4.jpg');"></div>
 								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-5.jpg');"></div>
+								<div class="swiper-slide" style="background-image:url('img/chateau-lacouture-6.jpg');"></div>
 							</div>
 						</div>
 						<div class="swiper-button-next"></div>
@@ -67,8 +68,20 @@
 						</h2>
 					</div>
 					<div class="columns large-6 medium-6 small-12">
-						<span class="bulle-top"></span>
-						<span class="bulle-bottom"></span>
+						<span class="bulle-top">
+						  <p class="bulle-haut"><b>
+						      <br>
+						      <a href="img/partenariat2017.pdf" target="_BLANK"><br>&nbsp;&nbsp;&nbsp;BD & VINS <br>&nbsp;&nbsp;&nbsp;&nbsp;2017<br>
+						       </a></b>
+						  </p>
+						</span>
+						<span class="bulle-bottom">
+						  <p class="bulle-bas"><b>
+						      <br>
+						      <a href="img/partenariat2017.pdf" target="_BLANK">&nbsp;&nbsp;Télécharger le bon<br>
+						       &nbsp; &nbsp;du partenariat</a></b>
+						  </p>
+						</span>
 						<img src="img/bd.jpg" alt="" />
 					</div>
 					<div class="columns large-6 medium-6 small-12">

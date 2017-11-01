@@ -36,6 +36,7 @@
                         La propriété viticole déjà citée au milieu du XIXème siècle dans le célèbre "Bordeaux et ses Vins" des Editions Féret, fut rachetée en 1930 par Gervais SOU.<br/><br/><br/>
                         Après trois générations de vignerons, sont arrière petit fils Romain s'installe à son tour en 2002 sur l'exploitation viticole.
                         </p>	
+        					   
                         <br/><br/><br/>
                         <h2>
 								Château Lacouture<br/>
@@ -70,6 +71,16 @@
     					<a href="img/chateau-lacouture-3.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/chateau-lacouture-3.jpg"  alt="" /></a> 
     				</div>
     				
+			    </div>
+			    
+				<br/><br/>
+			    <div class="row" data-equalizer>
+			          <div class="columns large-6 medium-6 small-12" data-equalizer-watch>
+						<a href="img/sou-senior.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/sou-senior.jpg"  alt="" /></a>    
+			         </div>
+			         <div class="columns large-6 medium-6 small-12" data-equalizer-watch>
+    						<a href="img/sou-junior.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/sou-junior.jpg"  alt="" /></a>  
+        			 </div> 		  
 			    </div>
 		</main>
 		
