@@ -8,7 +8,7 @@
 				3 route du fronton, 33710 Gauriac, France<br/>
 				+33 5 57 64 82 31
 			</p>
-			<p class="social"><a href="https://www.facebook.com/ChateauLacouture" target="_blank" title="Facebook">0</a><a href="#" title="Twitter">1</a><a href="#" title="Google plus">2</a><a href="#" title="LinkedIn">3</a></p>
+			<p class="social"><a href="<?php echo FACEBOOK_LINK?>" target="_blank" title="Facebook">0</a></p>
 			<p><a href="mentions.php">mentions légales</a> | conception &amp; réalisation © 2016 - <a href="http://www.iconeo.fr" target="_blank">iconeo.fr</a></p>
 		</footer>
 		

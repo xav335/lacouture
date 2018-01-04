@@ -120,7 +120,7 @@
         				<p>Tél. +33 5 57 64 82 31 </p>
         				<p>contact@chateaulacouture.com</a></p>
         				
-        				<p>Visite des chais et du vignoble chaque jour de 10h à 18h, Sur rendez-vous de préférence.</p>
+        				<p>Visite des chais et du vignoble chaque jour de 10h à 18h.</p>
         				
 						<a href="img/sou-senior.jpg" class="fancybox" data-fancybox-group="qsn"><img src="img/sou-senior.jpg"  alt="" /></a>    
         			</div>

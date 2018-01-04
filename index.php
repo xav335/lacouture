@@ -70,7 +70,7 @@ if (!empty($result)) {
 
 <br><br>
 
-                                    <p><strong>Visite des chais et du vignoble chaque jour de 10h à 18h, sur rendez-vous de préférence.</strong></p>
+                                    <p><strong>Visite des chais et du vignoble chaque jour de 10h à 18h.</strong></p>
                                     
                                    <a class="rouge" href="photos/bdc<?php echo $pdf?>" target="_BLANK">Télécharger notre plaquette</a>
 							</div>
@@ -89,21 +89,9 @@ if (!empty($result)) {
 						</h2>
 					</div>
 					<div class="columns large-6 medium-6 small-12">
-						<span class="bulle-top">
-						  <p class="bulle-haut"><b>
-						      <br>
-						      <a href="img/partenariat2017.pdf" target="_BLANK"><br>&nbsp;&nbsp;&nbsp;BD & VINS <br>&nbsp;&nbsp;&nbsp;&nbsp;2017<br>
-						       </a></b>
-						  </p>
-						</span>
-						<span class="bulle-bottom">
-						  <p class="bulle-bas"><b>
-						      <br>
-						      <a href="img/partenariat2017.pdf" target="_BLANK">&nbsp;&nbsp;Télécharger le bon<br>
-						       &nbsp; &nbsp;du partenariat</a></b>
-						  </p>
-						</span>
-						<img src="img/bd.jpg" alt="" />
+						
+						<a href="http://www.bd-et-vin.fr/" target="_BLANK"><img src="img/BDvin.jpg" alt="" /></a>
+						<H2><a href="http://www.bd-et-vin.fr/association/nous-rejoindre/" target="_BLANK">Devenez partenaire de l'asso</a></H2>
 					</div>
 					<div class="columns large-6 medium-6 small-12">
 						<div class="fb-page" data-href="https://www.facebook.com/ChateauLacouture" data-tabs="timeline" data-width="500" data-height="417" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ChateauLacouture"><a href="https://www.facebook.com/ChateauLacouture">Château Lacouture</a></blockquote></div></div>

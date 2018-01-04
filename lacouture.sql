@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.58, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.21, for osx10.6 (x86_64)
 --
 -- Host: localhost    Database: lacouture
 -- ------------------------------------------------------
--- Server version	5.5.58-0+deb8u1
+-- Server version	5.6.21
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -227,7 +227,7 @@ CREATE TABLE `planning` (
 
 LOCK TABLES `planning` WRITE;
 /*!40000 ALTER TABLE `planning` DISABLE KEYS */;
-INSERT INTO `planning` VALUES (1,' 2017','','/plaquette2017-20171101.pdf');
+INSERT INTO `planning` VALUES (1,' 2017','','/De_pliant_2017_new-20180104.pdf');
 /*!40000 ALTER TABLE `planning` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -240,4 +240,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-01-03 13:13:11
+-- Dump completed on 2018-01-04 14:09:55

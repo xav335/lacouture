@@ -45,10 +45,12 @@
 						<p>
                         Surplombant l’estuaire de la Gironde, le Château Lacouture est un site privilégié d’une superficie de 12&nbsp;hectares.<br/><br/><br/>
 
-                        Les vignes du château se partagent équitablement entre un plateau argilo-limoneux et un coteau argilo-calcaire, qui bénéficie d’une exposition sud-ouest
+                        Les vignes du château se partagent équitablement entre un plateau 
+                        argilo-limoneux et un coteau argilo-calcaire, qui bénéficie d’une exposition sud-ouest
                         , idéale à la maturation des raisins.<br/><br/><br/>
                         
-                        Les cépages cultivés sont le <b>merlot</b> (72 %), <b>le Malbec</b> (15 %) et <b>le Cabernet Sauvignon</b> (13 %).<br/>
+                        Les cépages cultivés sont le <b>merlot</b> (62 %), <b>le Malbec</b> (17 %) et <b>
+                        le Cabernet Sauvignon</b> (15 %) et pour les blancs, le Sauvignon Blanc (3 %), le Sauvignon Gris (2 %) et le Sémillon (1 %).<br/>
                         L’assemblage de ces cépages permet d’obtenir un vin équilibré, fruité et de garde.<br/><br/>
                         </p>
 					</div>
