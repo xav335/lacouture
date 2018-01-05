@@ -117,7 +117,7 @@
         				
         				<p>Romain SOU</p>
         				<p>3 route du Fronton <br/>33710 GAURIAC</p>
-        				<p>Tél. +33 5 57 64 82 31 </p>
+        				<p>Tél. +33 6 62 10 82 31 </p>
         				<p>contact@chateaulacouture.com</a></p>
         				
         				<p>Visite des chais et du vignoble chaque jour de 10h à 18h.</p>
