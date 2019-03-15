@@ -62,13 +62,12 @@ if (!empty($_GET)){
 		    <?php $i=0; ?>
 			<?php foreach ($result as $value) : ?>
 				<?php $i++;  ?>
-				?>
 				<div class="row">
 					<div class="large-3 medium-3 small-3 columns">
 						<a href="photos/news<?php echo $value['image1']?>" class="fancybox"><img src="/photos/news/thumbs<?php echo $value['image1']?>" alt="" /></a>
 					</div>
 					<div class="large-9 medium-9 small-9 columns">
-						<h2 style="text-align: left;"><?php echo $value['titre']?>( <?php echo traitement_datetime_affiche($value['date_news'])?> )</h2>
+						<h2 style="text-align: left;"><?php echo $value['titre']?>(&nbsp;<?php echo traitement_datetime_affiche($value['date_news'])?>&nbsp;)</h2>
 						<p>
 							<?php echo nl2br($value['contenu'])?>
 						</p>
