@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.6.21, for osx10.6 (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.58, for debian-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lacouture
 -- ------------------------------------------------------
--- Server version	5.6.21
+-- Server version	5.5.58-0+deb8u1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -37,7 +37,7 @@ CREATE TABLE `admin` (
 
 LOCK TABLES `admin` WRITE;
 /*!40000 ALTER TABLE `admin` DISABLE KEYS */;
-INSERT INTO `admin` VALUES (1,'lacouture','lacouture33','administrateur'),(2,'admin','admin335','ico');
+INSERT INTO `admin` VALUES (1,'lacouture','lacouture33335','administrateur'),(2,'admin','admin335335','ico');
 /*!40000 ALTER TABLE `admin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -59,7 +59,7 @@ CREATE TABLE `contact` (
   `fromgoldbook` tinyint(4) NOT NULL DEFAULT '0',
   `fromcontact` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=25471 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=25475 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -68,7 +68,7 @@ CREATE TABLE `contact` (
 
 LOCK TABLES `contact` WRITE;
 /*!40000 ALTER TABLE `contact` DISABLE KEYS */;
-INSERT INTO `contact` VALUES (25448,'jhonny','guitar','jav_gonz@yahoo.com',NULL,NULL,1,0,1),(25462,'Jav','gonz','jav_gonz@yahoo.fr',NULL,NULL,1,0,0),(25463,'xav','gonza','xavier.gonzalez@free.fr',NULL,NULL,1,0,0),(25464,'xavier','gonzalez','fjavi.gonzalez@gmail.com',NULL,NULL,1,0,0),(25465,'','Gonzalez','xavier@gonzalez.pm',NULL,NULL,1,0,0),(25466,'jhonny','guitar','jav_gonz@yahoo.com',NULL,NULL,1,0,0),(25470,'','','xavier@yahooo.fr',NULL,'',1,0,0);
+INSERT INTO `contact` VALUES (25448,'jhonny','guitar','jav_gonz@yahoo.com',NULL,NULL,1,0,1),(25462,'Jav','gonz','jav_gonz@yahoo.fr',NULL,NULL,1,0,0),(25463,'xav','gonza','xavier.gonzalez@free.fr',NULL,NULL,1,0,0),(25464,'xavier','gonzalez','fjavi.gonzalez@gmail.com',NULL,NULL,1,0,0),(25465,'','Gonzalez','xavier@gonzalez.pm',NULL,NULL,1,0,0),(25466,'jhonny','guitar','jav_gonz@yahoo.com',NULL,NULL,1,0,0),(25470,'','','xavier@yahooo.fr',NULL,'',1,0,0),(25471,'','','christian.thorel73@sfr.fr',NULL,'',1,0,0),(25472,'','','mfneyret@yahoo.fr',NULL,'',1,0,0),(25473,'','','famshop@online.de',NULL,'',1,0,0),(25474,'','','ivan.dewitte@telenet.be',NULL,'',1,0,0);
 /*!40000 ALTER TABLE `contact` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -109,7 +109,7 @@ CREATE TABLE `goldbook` (
   `message` text,
   `online` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -118,7 +118,7 @@ CREATE TABLE `goldbook` (
 
 LOCK TABLES `goldbook` WRITE;
 /*!40000 ALTER TABLE `goldbook` DISABLE KEYS */;
-INSERT INTO `goldbook` VALUES (2,'2017-01-10 00:00:00','Jérome Malles','xavier@gonzalez.pm','Produits de grande qualité. Dans le respect de l\'environnement.\r\n',1),(3,'2017-11-01 00:00:00','Javier Gonzalez ( Latresne )','fjavi.gonzalez@gmail.com','Des vins superbes, un accueil chaleureux et des conseils pertinents donnés  par des personnes très compétentes et passionnés. Je recommande chaudement.',1),(13,'2017-11-01 00:00:00','Yann ( London )','fjavi.gonzalez@gmail.com','Great wines ! ',1);
+INSERT INTO `goldbook` VALUES (2,'2017-01-10 00:00:00','Jérome Malles','xavier@gonzalez.pm','Produits de grande qualité. Dans le respect de l\'environnement.\r\n',1),(3,'2017-11-01 00:00:00','Javier Gonzalez ( Latresne )','fjavi.gonzalez@gmail.com','Des vins superbes, un accueil chaleureux et des conseils pertinents donnés  par des personnes très compétentes et passionnés. Je recommande chaudement.',1),(13,'2017-11-01 00:00:00','Yann ( London )','fjavi.gonzalez@gmail.com','Great wines ! ',1),(14,'2019-02-01 00:00:00','Devaux bernard','tionards4@free.fr','Bonne dégustation ce soir aux caves basséenes 59 en présence  des proprietaires  romain sou  à Gauriac en Gironde dont ils produisent mon vin  number one préféré le fameux carpediem cote de bourg 2015 avec modération et l extras 2012 ...et aussi une dégustation de fromage de  conté extras..merci élo et jéjé pour ce moment de derniere minute...et pour l info..cotent de voir les gens en live qui nous offrent de bons moments lorsque l on déguste leur producrion en famille...',1);
 /*!40000 ALTER TABLE `goldbook` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -138,7 +138,7 @@ CREATE TABLE `news` (
   `image1` varchar(250) DEFAULT NULL,
   `online` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_news`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -147,7 +147,7 @@ CREATE TABLE `news` (
 
 LOCK TABLES `news` WRITE;
 /*!40000 ALTER TABLE `news` DISABLE KEYS */;
-INSERT INTO `news` VALUES (18,'2017-01-19 00:00:00','Lancement de notre site internet','','Retrouvez sur notre site tous nos produits,nos actus et évènements.\r\ninscrivez vous à la newsletter et suivez nous sur facebook.\r\nBon surf.\r\n','/Screenshot_2017_11_02_00.11.20-18.png',1),(19,'2017-11-12 00:00:00','Marché Culturel et Gastronomique','http://www.sudouest.fr/2014/11/08/le-mariage-de-la-culture-et-de-la-gastronomie-1729984-3230.php','Venez partager un moment convivial au château Lacouture.\r\n\r\nPendant ce marché exceptionnel, profitez d\'une visite des installations viticoles du château Lacouture et de dégustations des vins des Côtes de Bourg.\r\nVous pourrez acheter des produits du terroir ainsi que des jeux et jouets traditionnels et des objets artisanaux !\r\nUne exposition prendra également place, et l\'auteur de la BD \"Les aventures d\'Aëlys et Roustan\" sera présent pour une séance de dédicaces.\r\n\r\nRéservation obligatoire pour le repas du midi.','/lan_dernier_environ_200_personne-19.jpg',0);
+INSERT INTO `news` VALUES (18,'2017-01-19 00:00:00','Lancement de notre site internet','','Retrouvez sur notre site tous nos produits,nos actus et évènements.\r\ninscrivez vous à la newsletter et suivez nous sur facebook.\r\nBon surf.\r\n','/Screenshot_2017_11_02_00.11.20-18.png',1),(19,'2017-11-12 00:00:00','Marché Culturel et Gastronomique','http://www.sudouest.fr/2014/11/08/le-mariage-de-la-culture-et-de-la-gastronomie-1729984-3230.php','Venez partager un moment convivial au château Lacouture.\r\n\r\nPendant ce marché exceptionnel, profitez d\'une visite des installations viticoles du château Lacouture et de dégustations des vins des Côtes de Bourg.\r\nVous pourrez acheter des produits du terroir ainsi que des jeux et jouets traditionnels et des objets artisanaux !\r\nUne exposition prendra également place, et l\'auteur de la BD \"Les aventures d\'Aëlys et Roustan\" sera présent pour une séance de dédicaces.\r\n\r\nRéservation obligatoire pour le repas du midi.','/lan_dernier_environ_200_personne-19.jpg',0),(21,'2019-04-13 00:00:00','  Salon Rom\'Antique','','','/De_dicaces_New_Romance_Young_A-.jpg',0),(22,'2019-03-23 00:00:00','23 et 24 mars Poulets de Bresse','','','/Poulets_de_Bresse_2019-.jpg',0),(23,'2019-05-05 00:00:00','BD&Vin (04/05/2019) et','http://www.bd-et-vin.fr/','','',0);
 /*!40000 ALTER TABLE `news` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -227,7 +227,7 @@ CREATE TABLE `planning` (
 
 LOCK TABLES `planning` WRITE;
 /*!40000 ALTER TABLE `planning` DISABLE KEYS */;
-INSERT INTO `planning` VALUES (1,' 2017','','/De_pliant_2017_new-20180104.pdf');
+INSERT INTO `planning` VALUES (1,' 2017','','/Depliant2019-20190616.pdf');
 /*!40000 ALTER TABLE `planning` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -240,4 +240,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-01-04 14:09:55
+-- Dump completed on 2019-08-31 19:09:49
